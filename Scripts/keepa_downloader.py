@@ -861,19 +861,6 @@ def main():
     print("KEEPA SCRAPER - MULTI-CATEGORY DATABASE STORAGE")
     print("=" * 70)
     
-    # Print configuration
-    print(f"\nConfiguration from .env:")
-    print(f"  SHARD_FIELD: {SHARD_FIELD}")
-    print(f"  SHARD_SIZE: {SHARD_SIZE:,}")
-    print(f"  PAGING_ORDER: {PAGING_ORDER}")
-    print(f"  SNAPSHOT_FREEZE: {SNAPSHOT_FREEZE}")
-    print(f"  REQS_PER_MINUTE: {REQS_PER_MINUTE}")
-    print(f"  REQS_PER_HOUR: {REQS_PER_HOUR}")
-    print(f"  TOKENS_RESERVE: {TOKENS_RESERVE}")
-    print(f"  TOKENS_POLL_SEC: {TOKENS_POLL_SEC}")
-    print(f"  DB_SCHEMA: {DB_SCHEMA}")
-    print(f"  DB_TABLE: {DB_TABLE}")
-    
     # Get categories from .env
     categories = get_categories_from_env()
     
