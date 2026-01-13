@@ -1,1 +1,1 @@
-worker: python keepa_downloader.py
+worker: python Scripts/keepa_downloader.py
