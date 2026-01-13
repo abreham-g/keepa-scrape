@@ -1,0 +1,1 @@
+worker: python keepa_downloader.py
