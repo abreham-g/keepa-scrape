@@ -1,6 +1,3 @@
-# keepa_downloader.py
-# Python 3.8+   (pip install requests psycopg2-binary python-dotenv)
-
 import json
 import time
 import pathlib
