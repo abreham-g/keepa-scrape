@@ -5,7 +5,7 @@
     "buildCommand": "pip install -r requirements.txt"
   },
   "deploy": {
-    "startCommand": "python Script/keepa_downloader.py",
+    "startCommand": "python keepa_downloader.py",
     "restartPolicyType": "ON_FAILURE",
     "restartPolicyMaxRetries": 3
   }
